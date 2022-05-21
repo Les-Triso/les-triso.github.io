@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Ryo d'Hawaï | 😈 Le Blog des Triso 😈</title>
+</head>
+<body>
+    <header>
+        <h1>😈 Le Blog des Triso 😈</h1>
+    </header>
+
+    <nav>
+    <a href="index.html">Acceuil</a>
+    <a href="singin.html">Connexion</a>
+    </nav>
+    <noscript>
+    /*Ce Site est entièrement conçu par Milan WDS*/
+    /*Tout ce qu'il y a au dessus doit être présent dans toutes les Pages*/
+    </noscript>
+    <div id='sectionAimprimer'>
+    <h1><u>Le Ryo d'Hawaï :</u></h1>
+    <div id="fb-root">
+       <img src="bob.png" alt="Photo du Benjamin" style="width:530px;height: 350px"><br>
+    </div>
+       <p style="color:black;font-size:20px;background:beige;">
+        Les éponges ou spongiaires (Porifera) sont des animaux formant l'embranchement basal des métazoaires. Elles sont définies comme des métazoaires sessiles à l'âge adulte.<br>
+         Elles possèdent un système aquifère permettant la circulation (unidirectionnelle) de l'eau. Il est composé de chambres choanocytaires reliées entre elles<br>
+         et au milieu extérieur par des pores inhalants (ostium) et un pore exhalant (oscule). Ces chambres sont tapissées de choanocytes, qui sont des cellules<br>
+         flagellées caractéristiques des éponges. Les éponges possèdent deux couches de cellules : le pinacoderme qui se situe à l'extérieur et le choanoderme<br>
+         qui se situe à l'intérieur. Entre ces deux couches, des cellules mobiles se déplacent dans la mésohyle, matrice extracellulaire composé de collagène. Leur<br>
+         système nerveux est très primitif et diffus.<br><br>
+        Dans l'histoire de la biologie, elles ont longtemps été considérées comme un végétal. La répartition géographique des éponges est très large,<br>
+         car elles ont colonisé les eaux marines, douces et saumâtres, de profondeurs faibles jusqu'à plus de 5 000 m de fond, sous tous les climats.<br>
+         Elles comptent parmi les tout premiers animaux coloniaux (déjà abondantes au Cryogénien), ayant une importante action dans la filtration de l'eau.<br><br>
+        Les éponges sont exploitées par l'homme pour leur capacité à absorber les liquides. C'est le squelette des démosponges qui est utilisé<br>
+         comme objet pour l'hygiène, en chirurgie, pour le tannage des cuirs et la céramique. On a récemment montré qu'elles abritent une diversité exceptionnelle<br>
+         d'endosymbiotes microbiens ou microalgaux.<br><br>
+         <strong>------------------</strong><br><br>
+         <strong><u>Localisation : Hawaï</u></strong><br><br>
+          <img src="bob.loc.png" alt="Localisation du Ryo d'Hawaï" style="width:300px;height: 200px">
+          <br><strong>Pays :</strong>	États-Unis États-Unis<br>
+<strong>Capitale :</strong>	Honolulu<br>
+<strong>Adhésion à l’Union :</strong>	21 août 1959 (62 ans) (50e État)<br>
+<strong>Gouverneur :</strong>	David Ige (D)<br>
+<strong>Sénateurs</strong>	Brian Schatz (D) & Mazie Hirono (D)<br>
+<strong>ISO :</strong> 3166-2	US-HI<br>
+<strong>Fuseau horaire :</strong>	UTC−10:00<br>
+          <br><br>
+</p>
+</div>
+<button disabled="disabled">Modifier l'Article 🖋</button><br>
+<br>
+<button onClick="imprimer('sectionAimprimer')">Imprimer cet Article 🖨</button>
+
+        <script>
+            function imprimer(divName) {
+                  var printContents = document.getElementById(divName).innerHTML;    
+               var originalContents = document.body.innerHTML;      
+               document.body.innerHTML = printContents;     
+               window.print();     
+               document.body.innerHTML = originalContents;
+               }
+            </script>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            
+            <!-- Your share button code -->
+            <div class="fb-share-button" 
+            data-href="https://www.your-domain.com/your-page.html" 
+            data-layout="button_count">
+            </div>
+       
+</body>
+</html>
