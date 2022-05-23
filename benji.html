@@ -54,7 +54,7 @@ Statut de sauvegarde à l'état sauvage : Vulnérable<br><br>
 </div>
 <a href="nikoumouk.html"><button disabled="disabled">Modifier l'Article 🖋</button><br></a><br>
 <br>
-<button onClick="imprimer('sectionAimprimer')">Imprimer cet Article 🖨</button>
+<a onClick="imprimer('sectionAimprimer')" class="button">Imprimer cet Article 🖨</a>
         <!-- Your print button code -->
         <script>
             function imprimer(divName) {
@@ -65,13 +65,16 @@ Statut de sauvegarde à l'état sauvage : Vulnérable<br><br>
                document.body.innerHTML = originalContents;
                }
             </script>
-        <script>(function(d, s, id) {
+
+        <script>
+            (function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
             js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
             fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
             
         <!-- Your share button code -->
         <div class="fb-share-button" 
