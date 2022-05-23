@@ -3,14 +3,28 @@
 /*************************
 *******by.Milan WDS ******
 **************************/
+.bodynik {
+    background-color: beige;
+    cursor : url(sourisrat-pointer.png ) 25 25, pointer;  
+}
 .sourisrat {
-    cursor : url(sourisrat.png) 45 45, pointer
+    cursor:zoom-in
 }
 .carte {
     cursor:crosshair;
 }
 .interdit {
-    cursor:not-allowed;
+    background-color:#1876f273;
+	display:inline-block;
+	cursor : url(sourisrat-pointer.png ) 25 25, pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration:none;
+    border-radius: 3px;
+    font-size: 11px;
+    height: 20px;
+    padding: 0 6px;
 }
 .button {
 	background-color:#1877f2;
@@ -27,9 +41,12 @@
 }
 .button:hover {
 	background-color:#1877f2;
+    color:#ffffff;
 }
 .button:active {
 	top:0px;
+    color:#ffffff;
+	background-color:#1877f2;
 }
 /*************************
 *******Typography******
